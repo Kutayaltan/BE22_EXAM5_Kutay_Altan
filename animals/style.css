@@ -1,0 +1,108 @@
+/* Grundlegende Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(315deg, rgba(101, 0, 94, 0.521) 3%, rgba(60, 133, 206, 0.493) 38%, rgba(48, 238, 225, 0.521) 68%, rgba(250, 250, 250, 0.541) 98%);
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    margin-top: 20px;
+}
+
+/* Kopfzeile */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Karten */
+.card {
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.card .btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.card .btn-success:hover {
+    background-color: #218838;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
